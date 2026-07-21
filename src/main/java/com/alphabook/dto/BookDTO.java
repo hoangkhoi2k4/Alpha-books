@@ -24,6 +24,8 @@ public class BookDTO {
     private BigDecimal price;
     private Integer stock;
     private String imageUrl;
+    private Long categoryId;
+    private String categoryName;
 }
 
 

@@ -40,4 +40,8 @@ public class Book {
     private Integer stock;
 
     private String imageUrl;
+
+    @ManyToOne
+    @JoinColumn(name = "category_id")
+    private Category category;
 }
